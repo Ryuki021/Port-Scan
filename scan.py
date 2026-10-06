@@ -53,7 +53,7 @@ for port in range(1, limit):
         all_open.append(port)
 print(f'Thats all open ports: {all_open}')
 
-tecla = input("Digite Enter ou algo: ")
+tecla = input("Type anything to exit: ")
 while True:
     if tecla == '':
         break
