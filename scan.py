@@ -52,3 +52,8 @@ for port in range(1, limit):
     if client.connect_ex((target, port)) == 0:
         all_open.append(port)
 print(f'Thats all open ports: {all_open}')
+
+tecla = input("Digite Enter ou algo: ")
+while True:
+    if tecla == '':
+        break
